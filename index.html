@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="portifolio.css"/>
+    <title>My Web</title>
+
+    
+    <!--the above links fonts-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--the above link enables icons and other materials from font awesome web (It's gotten from cdnjs)-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+<!--the above link works for small screen-->
+
+</head>
+<body>
+    <section class="main">
+        <div class="main-div">
+        <header>
+            <div class="logo" id="home">
+                <i class="fa-solid fa-circle-nodes"><a href=""></a></i>
+            </div>
+            
+        <!--navigation bar-->
+            <nav>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+
+
+
+                
+                <div class="openMenu"><i class="fa fa-bars"></i></div>
+                <ul class="mainMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    
+                    <li><a href="#work">Work</a></li>
+                    <li class="btn"><a href="#contact">Contact Me</a></li>
+                    <div class="closeMenu"><i class="fa fa-times"></i></div>
+                    <span class="icons">
+                       
+                        <!--<i class="fab fa-twitter"></i>
+                        <i class="fab fa-github"></i>-->
+                    </span>
+                </ul>
+
+
+
+            </nav>
+            
+
+
+        </header>
+        <!--body main text-->
+        <div class="container1">
+            <div class="main-text">
+                <h4>Hi, Welcome to My Website</h4>
+                <h1>I am <span class="input"></span></h1>
+                <p>Technology is my passion, I have 3+ years of experience in the Digital World.
+                    I am ready to serve you remotely, In-person/hybrid 
+                    and I am always learnig new skills in order to serve you better.
+                </p>
+                <div>
+                    <button type="button"><a href="#about">More About Me</a></button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        
+    </section>
+    <!----------About page-------------------------------->
+    <section class="about" id="about">
+        <div class="container2">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/image2.jpg" class="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 id="sub">About Me</h1>
+                    <p>I am a confident, energetic and highly organized IT Specialist with good IT support knowledge. 
+                        Possessing a proven ability to administer and control the operation, computer programming, 
+                        configuration and maintenance of computer based information systems 
+                        as well as having an eye for details and able to multi-task under pressure. 
+                       
+                    <div class="titles">
+                        <p class="links active-link" onclick="opentab('skills')">Skills</p>
+                       <!-- <p class="links" onclick="opentab('education')">Education</p>
+                        <p class="links" onclick="opentab('experience')">Experience</p>
+                        -->
+                    </div>
+
+                    <!------------------skills contents--------------------->
+                    <div class="contents active" id="skills">
+                        <ul>
+                        <li><span>Software/Web Deolopment</span>: Websites, Web & Desktop Apps, Games.</li>
+                        <br>
+                        <li><span>Network Design and Maintenance</span>: LAN and WAN Design, Switches
+                             and Routers configurations, Network troubleshooting.</li>
+                        <br>
+                        <li><span>IT/Electronics Support</span>: Software and Hardware maintenance, Circuit Anylizing and Design.</li>
+                        </ul>
+                    </div>
+                    <!------------------Education contents--------------------->
+                    <!--
+                    <div class="contents" id="education">
+                        <ul>
+                        <li><span>Kenyatta University</span>: Bsc. Telecommunication and Information Technology.</li>
+                        <br>
+                        <li><span>Cisco Networking Academy</span>: CCNA</li>
+                        <br>
+                        <li><span>IPRC/Tss</span>: Technical Diploma in Electronics and Telecommunication</li>
+                        </ul>
+                    </div>
+                    -->
+                    <!------------------Experience contents--------------------->
+                    <!--
+                    <div class="contents" id="experience">
+                        <ul>
+                        <li><span>G-funze</span>: Online Coding Instructor.</li>
+                        <br>
+                        <li><span>TechlitAfrica</span>: IT Educator</li>
+                        <br>
+                        <li><span>Optimize5</span>: IT Executive Assistant (Remote)</li>
+                        <br>
+                        <li><span>Gertrude's Children's Hospital</span>: IT Support (Hybrid)</li>
+                        <br>
+                        <li><span>Muhima Hospital</span>: Technician (Electronics and Electricity)</li>
+                        </ul>
+                    </div>
+                    -->
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!----------------------------------Services--------------------------------------------------
+
+    <!----------------------------------portifolio-------------------------------------------------->
+
+    <section class="portifolio" id="work">
+        <div class="container4">
+            <h1 class="sub3">My Work and Services</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/web-dev.jpg">
+                    <div class="layer">
+                        <h3>Software/Web Development</h3>
+                        <p>Software and web development are two different fields that use programming languages to create user-facing software.
+                         Software developers create programs for desktop and mobile devices, while web developers create websites and web applications 
+                            that run on internet browsers.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/network.jpg">
+                    <div class="layer">
+                        <h3>Network Design and Maintenance</h3>
+                        <p> 
+                            Network design starts with identifying business 
+                            and technical requirements and continues until just before the network implementation stage 
+                              Network maintenance basically means you have to do what it takes in order to keep 
+                                a network up and running and it includes a number of tasks: Troubleshooting network problems. 
+                                Hardware and software installation/configuration.
+                                Monitoring and improving network performance. Planning for future network growth.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/it-support.jpg">
+                    <div class="layer">
+                        <h3>IT Support</h3>
+                        <p>The IT Support maintains the computer networks of all types of organisations, providing technical support and 
+                            ensuring the whole company runs smoothly. IT Support monitors and maintains the company computer systems, 
+                            installs, and configures hardware and software, and solves technical issues as they arise. 
+                            Because of the nature of the job, some companies may require their IT Support to undertake shift work.  </p>
+                    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/consultation.jpg">
+                    <div class="layer">
+                        <h3>IT consultation</h3>
+                        <p>Information technology (IT) consulting services help improve the performance, scalability and competitiveness 
+                            of your company through right technology enablement and usage. In IT since 1989, ScienceSoft can expertly guide 
+                            your IT and digital transformation initiatives from strategy to implementation. 
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/tutoring.jpg">
+                    <div class="layer">
+                        <h3>IT Tutoring/Mentoring</h3>
+                        <p>
+                            Tutoring is a form of help. It is when someone, called a tutor, 
+                            provides extra support, or help in a subject area to another person to help them improve.
+                        
+                         Mentoring aims to build confidence and relationships, 
+                        to develop resilience and character, 
+                        or raise aspirations, rather than to develop specific academic skills or knowledge.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!------------------------Contact------------------------------------>
+<section class="contact" id="contact">
+    <div class="container5">
+        <div class="row">
+           
+            <div class="contact-left">
+                <h1 class="sub4">Holla at Me</h1>
+            
+                <p>+254729237576 &nbsp / +250790040596 &nbsp<i class="fa-solid fa-phone-volume"></i></p>
+                <p>elymachine@gmail.com  <i class="fa-regular fa-envelope"></i></p>
+                <br>
+                <div class="social">
+                    <a href="https://twitter.com/elyseemarchall"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ElyseeTech" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                
+
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder=" Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="Message" rows="3" placeholder=" Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright © ElyTech. <i class="fa-solid fa-microchip"></i></p>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-----------------------Javascript for the introduction----------------------------------->
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {strings:
+            ["Elysee The Spider.", "An IT Specialist.", "A Software/Web Developer.", "An IT Technician.", "An IT Tutor/Mentor."], 
+            typeSpeed: 50,
+            backSpeed:50,
+            loop: true });
+    </script>
+
+    <!-----------------------Javascript for Sticky NAvigation Bar----------------------------------->
+  
+    
+    <!-----------------------for about me tabs----------------------------------->
+    <script>
+        var tablinks =document.getElementsByClassName("links");
+        var tabcontents = document.getElementsByClassName("contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active")
+
+        }
+    </script>
+    <!-----------------------------Menu for Small Screen---------------------------------------------->
+ 
+
+    
+    <!--for small screen-->
+    <script>
+        const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+const menu_items = document.querySelectorAll('nav .mainMenu li a');
+
+
+
+
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+
+// close menu when you click on a menu item 
+menu_items.forEach(item => {
+    item.addEventListener('click',function(){
+        close();
+    })
+})
+
+function show(){
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
+}
+function close(){
+    mainMenu.style.top = '-100%';
+}
+
+    </script>
+
+</body>
+</html>
